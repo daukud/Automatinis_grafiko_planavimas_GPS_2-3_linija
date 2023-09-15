@@ -1,7 +1,7 @@
 rem backup
 
-xcopy /y /f "\ma1\Gamybos_padalinys\Gamybos_planavimo_skyrius\Automatinis grafiko planavimas 2-3 linija\Planas 2-3 linija 37 sav DERINIMUI.xlsm" "\ma1\Gamybos_padalinys\Gamybos_planavimo_skyrius\Automatinis grafiko planavimas 2-3 linija\archyvas\2003\Planas 2-3 linija 37 sav DERINIMUI.xlsm"
+xcopy /y /f %destFolder1%%destFileName1%.xlsm %destBackupFolder1%%destFileName1%.%BUILD_NUMBER%.xlsm
 
 rem copy
 
-xcopy /y /f "Planas 2-3 linija 37 sav DERINIMUI TEST.xlsm" "\ma1\Gamybos_padalinys\Gamybos_planavimo_skyrius\Automatinis grafiko planavimas 2-3 linija\Planas 2-3 linija 37 sav DERINIMUI.xlsm"
+xcopy /y /f %srcFileName1% %destFolder1%%destFileName1%.xlsm
