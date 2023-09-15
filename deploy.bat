@@ -14,15 +14,15 @@ rem set srcFileName1=Planas 2-3 linija 37 sav DERINIMUI TEST
 
 rem print variables
 
-echo BUILD_NUMBER %BUILD_NUMBER%
+echo BUILD_NUMBER: %BUILD_NUMBER%
 echo.
-echo destFolder1 %destFolder1%
+echo destFolder1: %destFolder1%
 echo.
-echo destFileName1 %destFileName1%
+echo destFileName1: %destFileName1%
 echo.
-echo destBackupFolder1 %destBackupFolder1%
+echo destBackupFolder1: %destBackupFolder1%
 echo.
-echo srcFileName1 %srcFileName1%
+echo srcFileName1: %srcFileName1%
 echo.
 echo.
 echo deploy:
